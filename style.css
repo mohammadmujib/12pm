@@ -1,6 +1,23 @@
-div {
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  align-items: flex-end;
+body {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+.yellow {
+  background-color: yellow;
+  order: -2;
+}
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+  order: -1;
+}
+.green {
+  background-color: green;
 }
