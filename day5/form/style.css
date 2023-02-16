@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+body {
+  background-color: beige;
+}
+
+button {
+  margin-top: 10px;
+}
